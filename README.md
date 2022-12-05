@@ -1,5 +1,11 @@
 ## Deploy a React SPA (single page application) on Netlify
 
+So far, we've created applications that we've run locally on our `localhost`. As you can imagine, this isn't how websites normally work! It's time to level up to deployment - hosting your app on a server outside of your own computer, provided by an external service, so that your app can be accessed through a URL from any browser/device. 
+
+There are many tools out there to do this, both free and paid, but we'll start with getting a front end deployed using a tool called Netlify.
+
+Note: The free tier of Netlify doesn't allow deployment of private organisation repositories, so you'll need to go into this repo's settings and scroll down to the "danger zone" at the bottom and change the visibility to public before you deploy.
+
 1. Have a look through the Netlify documentation:
  - https://docs.netlify.com/
  - Find any Netlify resources/videos
